@@ -1,0 +1,13 @@
+{
+  "dataset_name": "ag_news",
+  "description": "AG News Corpus - news titles + descriptions (4 categories)",
+  "index_type": "IndexFlatIP",
+  "dimension": 1024,
+  "model": "intfloat/e5-large-v2",
+  "total_vectors": 127600,
+  "total_chunks": 127600,
+  "metadata_count": 127600,
+  "created_at": "2025-12-09T17:13:57.546199",
+  "index_filename": "vectors.index",
+  "integrity_status": "VERIFIED"
+}
