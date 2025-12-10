@@ -1,0 +1,13 @@
+{
+  "dataset_name": "stackoverflow",
+  "description": "StackOverflow Questions + Answers - programming Q&A pairs",
+  "index_type": "IndexFlatIP",
+  "dimension": 1024,
+  "model": "intfloat/e5-large-v2",
+  "total_vectors": 77550,
+  "total_chunks": 77550,
+  "metadata_count": 77550,
+  "created_at": "2025-12-09T17:09:03.576850",
+  "index_filename": "vectors.index",
+  "integrity_status": "VERIFIED"
+}
