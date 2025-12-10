@@ -1,0 +1,12 @@
+{
+  "total_chunks": 33077,
+  "total_vectors": 33077,
+  "embedding_dim": 1024,
+  "faiss_index_type": "IndexFlatIP",
+  "missing_vectors": 0,
+  "orphan_metadata_items": 0,
+  "operator_notes": [
+    "Full index built successfully",
+    "All integrity checks passed"
+  ]
+}
