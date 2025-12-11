@@ -1,3 +1,9 @@
+[✔️ Live Project](https://github.com/whmatrix/semantic-indexing-batch-01)
+
+**661,525 vectors · 6 datasets · e5-large-v2 · FAISS IndexFlatIP**
+
+---
+
 # Semantic Indexing Batch 01
 
 This repository contains the final indexing outputs for 6 open datasets,
@@ -35,3 +41,11 @@ Total: **661,525 vectors** across 6 datasets.
 This repo is mainly a portfolio artifact showing that I can take real-world
 text datasets from raw form to a clean, verified, RAG-ready index with
 consistent structure.
+
+## Tech Stack
+
+- **Python**
+- **CUDA / PyTorch (FP16 inference)**
+- **FAISS (IndexFlatIP)**
+- **e5-large-v2 encoder**
+- **JSONL pipelines (chunks, metadata, summaries)**
