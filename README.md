@@ -49,3 +49,25 @@ consistent structure.
 - **FAISS (IndexFlatIP)**
 - **e5-large-v2 encoder**
 - **JSONL pipelines (chunks, metadata, summaries)**
+
+## Project Overview
+
+This project demonstrates a complete semantic indexing pipeline optimized for large-scale text datasets. Each dataset moves through a consistent sequence of steps:
+
+1. **Data Cleaning** – Normalize text, strip markup, handle encoding, remove noise.
+2. **Chunking** – Split documents into 512–800 token segments with metadata preservation.
+3. **Embedding** – Generate vector representations using the `intfloat/e5-large-v2` model in FP16 mode, GPU-accelerated.
+4. **Indexing** – Build FAISS `IndexFlatIP` indexes for fast semantic search and retrieval.
+5. **Verification** – Validate vector counts, dimensions, and metadata alignment.
+
+### Deliverables
+
+Each dataset includes:
+
+- `chunks.jsonl` – segmented text chunks  
+- `metadata.jsonl` – metadata for each chunk  
+- `summary.json` – dataset-level stats and notes  
+- `vectors.index` – FAISS vector index  
+- `index_info.json` – counts, dimensions, and integrity checks  
+
+This project is designed as a portfolio artifact demonstrating reliability, reproducibility, and clean engineering practices for preparing large datasets, generating embeddings, and producing RAG-ready indexes.
