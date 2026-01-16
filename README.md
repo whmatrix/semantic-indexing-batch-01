@@ -6,8 +6,6 @@
 > For the current production-standard implementation, see:
 > **semantic-indexing-batch-02**
 
-[✔️ Live Project](https://github.com/whmatrix/semantic-indexing-batch-01)
-
 **661,525 vectors · 6 datasets · e5-large-v2 · FAISS IndexFlatIP**
 
 ---
