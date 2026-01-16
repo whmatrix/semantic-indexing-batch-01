@@ -1,3 +1,11 @@
+> **Status: Exploratory / Foundational**
+>
+> This repository documents an earlier large-scale semantic indexing batch used to
+> validate pipeline design, failure modes, and scaling constraints.
+>
+> For the current production-standard implementation, see:
+> **semantic-indexing-batch-02**
+
 [✔️ Live Project](https://github.com/whmatrix/semantic-indexing-batch-01)
 
 **661,525 vectors · 6 datasets · e5-large-v2 · FAISS IndexFlatIP**
