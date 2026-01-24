@@ -100,3 +100,11 @@ This repo has been **superseded** by the production portfolio:
 
 - **Current Production**: [semantic-indexing-batch-02](https://github.com/whmatrix/semantic-indexing-batch-02) (8.3M+ vectors)
 - **Canonical Protocol**: [Universal Protocol v4.23](https://github.com/whmatrix/universal-protocol-v4.23)
+
+## Protocol Alignment
+
+This indexing run conforms to the
+[Universal Protocol v4.23](https://github.com/whmatrix/universal-protocol-v4.23).
+
+All dataset ingestion, chunking, embedding, FAISS construction,
+and validation artifacts follow the schemas and constraints defined there.
