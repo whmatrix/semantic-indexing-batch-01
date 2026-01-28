@@ -1,6 +1,9 @@
 > **Author:** John Mitchell (@whmatrix)
-> **Status: LEGACY_FOUNDATIONAL (Superseded)**
->
+> **Status:** SUPERSEDED (by batch-02)
+> **Audience:** Researchers / Learners
+> **Environment:** CPU sufficient (pre-built indices included)
+> **Fast Path:** See [batch-02 mini-index](https://github.com/whmatrix/semantic-indexing-batch-02/tree/main/mini-index)
+
 > This repository represents early foundational work. For the current production implementation, see [semantic-indexing-batch-02](https://github.com/whmatrix/semantic-indexing-batch-02).
 
 **661,525 vectors · 6 datasets · e5-large-v2 · FAISS IndexFlatIP**
