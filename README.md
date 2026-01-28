@@ -1,3 +1,4 @@
+> **Author:** John Mitchell (@whmatrix)
 > **Status: LEGACY_FOUNDATIONAL (Superseded)**
 >
 > This repository represents early foundational work. For the current production implementation, see [semantic-indexing-batch-02](https://github.com/whmatrix/semantic-indexing-batch-02).
