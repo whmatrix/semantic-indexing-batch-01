@@ -94,6 +94,12 @@ index = faiss.read_index("vectors.index")
 
 ---
 
+## Limitations & Non-Claims
+
+This batch provides a foundational semantic index demonstrating the indexing pipeline. It is superseded by [semantic-indexing-batch-02](https://github.com/whmatrix/semantic-indexing-batch-02) (8.35M+ vectors, larger scale). No retrieval quality metrics or benchmarking are provided; this is proof-of-concept infrastructure. Index outputs are not tuned for any specific application domain.
+
+---
+
 ## Routing
 
 This repo has been **superseded** by the production portfolio:
